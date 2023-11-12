@@ -1,10 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
+<!-- 
+    About , portfolio, contact.....
+    change navbar type
+
+      Limit projects to three on main page, and add a button so that user can see more
+      Add Project Links of Github, Add Publications and Blogs Link
+      Make Deepanshu Jain in Navbar {change color to blue}
+      Add publications inside protfolio, make a tab that switches between Projects, Publications and Blogs
+      Add awards, add my pictures in about me
+      Edit achievements section
+      Change blue color (2f89fc) to gradient...
+      Change keywords
+      Add google analytics - https://www.youtube.com/watch?v=XPuWgkd3RCs  or 
+              https://www.monsterinsights.com/how-to-use-google-analytics-segments-to-find-traffic-sources-to-a-page/ 
+            -->
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="author" content="Deepanshu Jain">
-    <meta name="description" content="Hi! I am Deepanshu Jain, from India. I work remotely as a freelance Data Analyst/Scientist and UI/UX Designer. This is my personal website. Feel free to know more about me and my work!">
+    <meta name="description" content="Hi! I am Deepanshu Jain, based in Los Angeles. I work remotely as a freelance Data Analyst/Scientist and UI/UX Designer. This is my personal website. Feel free to know more about me and my work!">
     <meta name="keywords" content="Deepanshu, Deepanshu Jain, Data Analyst, Data Scientist, UI/UX Designer, Machine Learning, Data Science, Portfolio, Portfolio Website, ADGITM, IEEE, IEEE Chairperson">
     <meta http-equiv="refresh" content="1200"> 
 
@@ -39,6 +54,7 @@
       </div>
     </div>
     <div class="page">
+      
     <nav id="colorlib-main-nav" role="navigation">
       <a href="#" class="js-colorlib-nav-toggle colorlib-nav-toggle active"><i></i></a>
       <div class="js-fullheight colorlib-table">
@@ -46,14 +62,12 @@
         <div class="colorlib-table-cell js-fullheight">
           <div class="row no-gutters">
             <div class="col-md-12 text-center">
-              <h1 class="mb-4"><a href="index.html" class="logo">Deepanshu Jain</a></h1>
+              <h1 class="mb-4 active"><a href="index.html" class="logo">Deepanshu Jain</a></h1>
               <ul>
-                <li class="active"><a href="index.html"><span><small>01</small>Home</span></a></li>
-                <li><a href="about.html"><span><small>02</small>About</span></a></li>
-                <li><a href="services.html"><span><small>03</small>Services</span></a></li>
-                <li><a href="portfolio.html"><span><small>04</small>Portfolio</span></a></li>
-                <li><a href="blog.html"><span><small>05</small>Publications</span></a></li>
-                <li><a href="contact.html"><span><small>06</small>Contact</span></a></li>
+                <li><a target="_blank" href="#section_about"><span><small>01</small>About</span></a></li>
+                <li><a target="_blank" href="#portfolio_section"><span><small>02</small>Portfolio</span></a></li>
+                <li><a href="blog.html"><span><small>03</small>Publications</span></a></li>
+                <li><a target="_blank" href="#contact_section.html"><span><small>04</small>Contact</span></a></li>
               </ul>
             </div>
           </div>
@@ -83,6 +97,7 @@
               <div class="col-md-12 ftco-animate" data-scrollax=" properties: { translateY: '70%' }">
                 <p><a href="#" class="scroll">Hello! I'm</a></p>
                 <h1 class="mb-3" data-scrollax="properties: { translateY: '30%', opacity: 1.6 }">Deepanshu Jain</h1>
+                <p><a href="#" class="scroll">I aim to make a difference through my creative solution</a></p>
               </div>
             </div>
           </div>
@@ -95,6 +110,7 @@
               <div class="col-md-12 ftco-animate" data-scrollax=" properties: { translateY: '70%' }">
                 <p><a href="#" class="scroll">I'm A</a></p>
                 <h1 class="mb-3" data-scrollax="properties: {translateY: '30%', opacity: 1.6}">Data Scientist</h1>
+                <p><a href="#" class="scroll">I aim to make a difference through my creative solution</a></p>
               </div>
             </div>
           </div>
@@ -107,6 +123,7 @@
               <div class="col-md-12 ftco-animate" data-scrollax=" properties: { translateY: '70%' }">
                 <p><a href="#" class="scroll">I'm A</a></p>
                 <h1 class="mb-3" data-scrollax="properties: {translateY: '30%', opacity: 1.6}">UI/UX Designer</h1>
+                <p><a href="#" class="scroll">I aim to make a difference through my creative solution</a></p>
               </div>
             </div>
           </div>
@@ -115,7 +132,7 @@
       </section>
       <!-- END slider -->
 
-      <section class="ftco-section about-section">
+      <section id="section_about" class="ftco-section about-section">
         <div class="container">
           <div class="row d-flex" data-scrollax-parent="true">
             <div class="col-md-4 author-img" style="background-image: url(images/author-1.jpg);" data-scrollax=" properties: { translateY: '-70%'}"></div>
@@ -125,27 +142,29 @@
                 <h1 class="bold-text">About</h1>
                 <div class="p-5">
                   <h2 class="mb-5">Hi! I'm Deepanshu Jain</h2>
-                  <p>I am from India. I work remotely as a freelance Data Analyst/Scientist and UI/UX Designer.</p>
-                  <p><a href="https://drive.google.com/file/d/1CjeTn7IJnAsNjmGf5rpXvLGZ92GbubQl/view?usp=sharing">Checkout my resume</a></p>
-                  <ul class="ftco-footer-social list-unstyled mt-4">
+                   <p>I am from India, based in LA, USA. I work remotely as a freelance Data Analyst/Scientist and UI/UX Designer.</p>
+                  <p>I am a passionate data sorcerer, armed with various skills and a dash of creativity. I've conjured some great projects which you can check out below.</p>  
+                  <p>Feel free to connect with me.</p>
+                  
+
+                 <ul class="ftco-footer-social list-unstyled mt-4">
                     <li><a target="_blank" href="https://www.linkedin.com/in/deepanshu-jain-01/"><span class="icon-linkedin"></span></a></li>
-				            <li><a target="_blank" href="https://github.com/Deeshu-Jain"><span class="icon-github"></span></a></li>
+				            <li><a target="_blank" href="https://github.com/deepanshu-jain-01"><span class="icon-github"></span></a></li>
                     <li><a target="_blank" href="https://www.behance.net/deepanshu_jain"><span class="icon-behance"></span></a></li>
-				            <li><a target="_blank" href="https://www.instagram.com/deeshu.jain/"><span class="icon-instagram"></span></a></li>
+				            <li><a target="_blank" href="https://www.medium.com"><span class="icon-medium"></span></a></li>
+                    <li><a target="_blank" href="https://www.instagram.com/deeshu.jain/"><span class="icon-instagram"></span></a></li>
                   </ul>
-                  <h5>Contact me here!</h5>
-                  <p>Email: <a href="mailto:djjain844@gmail.com">djjain844@gmail.com</a></p>
-                  <p>Phone: <a href="tel://+91 9717841140">+91-9717841140</a></p>
+
+                  <p style="font-size: 1.4rem;"><a target="_blank" href="about.html">Know More <span class="icon-arrow-right"></span></a></p>
                 </div>
               </div>
             </div>
           </div>
         </div>
       </section>
-
       <section class="ftco-section">
         <div class="container">
-          <div class="row justify-content-center mb-5 pb-5">
+          <div class="row justify-content-center mb-5">
             <div class="col-md-7 text-center heading-section ftco-animate">
               <span>What i do</span>
               <h2>My services</h2>
@@ -183,9 +202,9 @@
         </div>
       </section>
 
-      <section class="ftco-section">
+      <section id="portfolio_section" class="ftco-section">
         <div class="container">
-          <div class="row justify-content-center mb-5 pb-5">
+          <div class="row justify-content-center mb-5">
             <div class="col-md-7 text-center heading-section ftco-animate">
               <span>Portfolio</span>
               <h2>Checkout a few of my works</h2>
@@ -212,13 +231,13 @@
 	              </div>
 	            </a>
 	            <div class="text order-1">
-	              <h4 class="subheading">Deep Learning & Web App</h4>
+	              <h4 class="subheading">Machine Learning, Deep Learning & Web App</h4>
 	              <h2 class="heading"><a href="#">Minerr.AI</a></h2>
                 <p>Facilitated mapping of new potential locations for mineral discovery and streamlined the mining exploration process.</p>
                 <p><a href="#">View Project</a></p>
 	            </div>
 	          </div>
-	          <div class="block-3 d-md-flex ftco-animate" data-scrollax-parent="true">
+            <div class="block-3 d-md-flex ftco-animate" data-scrollax-parent="true">
 	            <a href="portfolio-single.html" class="image d-flex justify-content-center align-items-center" style="background-image: url('images/work-3.jpg'); " data-scrollax=" properties: { translateY: '-30%'}">
 	              <div class="icon d-flex text-center justify-content-center align-items-center">
 	                <span class="icon-search"></span>
@@ -226,11 +245,12 @@
 	            </a>
 	            <div class="text">
 	              <h4 class="subheading">Computer Vision & Deep Learning</h4>
-	              <h2 class="heading"><a href="portfolio-single.html">Face Mask & Social Distance Detection</a></h2>
+	              <h2 class="heading"><a href="portfolio-single.html">Crash Insights - Predicting Severity of Accidents Caused in US (2016-23)</a></h2>
 	              <p>Built a model to identify whether someone was wearing a mask and maintaining social distancing in a place to stop the transmission of severe diseases like COVID-19</p>
 	              <p><a href="#">View Project</a></p>
 	            </div>
 	          </div>
+	  
 	          <div class="block-3 d-md-flex ftco-animate" data-scrollax-parent="true">
 	            <a href="portfolio-single.html" class="image order-2 d-flex justify-content-center align-items-center" style="background-image: url('images/work-4.jpg'); " data-scrollax=" properties: { translateY: '-30%'}">
 	              <div class="icon d-flex text-center justify-content-center align-items-center">
@@ -244,28 +264,15 @@
                 <p><a href="#">View Project</a></p>
 	            </div>
 	          </div>
-	          <div class="block-3 d-md-flex ftco-animate" data-scrollax-parent="true">
-	            <a href="portfolio-single.html" class="image d-flex justify-content-center align-items-center" style="background-image: url('images/work-5.jpg'); " data-scrollax=" properties: { translateY: '-30%'}">
+            <div class="block-3 d-md-flex ftco-animate" data-scrollax-parent="true">
+	            <a href="portfolio-single.html" class="image d-flex justify-content-center align-items-center" style="background-image: url('images/work-6.jpg'); " data-scrollax=" properties: { translateY: '-30%'}">
 	              <div class="icon d-flex text-center justify-content-center align-items-center">
 	                <span class="icon-search"></span>
 	              </div>
 	            </a>
 	            <div class="text">
-	              <h4 class="subheading">Machine Learning & Web App</h4>
-	              <h2 class="heading"><a href="portfolio-single.html">Multiple Disease Detection</a></h2>
-                <p>Extracted four different public datasets and performed EDA. Also Developed four models predicting a particular disease.</p>
-                <p><a href="#">View Project</a></p>
-	            </div>
-	          </div>
-	          <div class="block-3 d-md-flex ftco-animate" data-scrollax-parent="true">
-	            <a href="portfolio-single.html" class="image order-2 d-flex justify-content-center align-items-center" style="background-image: url('images/work-6.jpg'); " data-scrollax=" properties: { translateY: '-30%'}">
-	              <div class="icon d-flex text-center justify-content-center align-items-center">
-	                <span class="icon-search"></span>
-	              </div>
-	            </a>
-	            <div class="text order-1">
-	              <h4 class="subheading">UI/UX Design</h4>
-	              <h2 class="heading"><a href="portfolio-single.html">MedConnect</a></h2>
+	              <h4 class="subheading">UI/UX</h4>
+	              <h2 class="heading"><a href="portfolio-single.html">MedConnect - UI/UX Case Study</a></h2>
                 <p>An app focusing on reducing communication gap between doctors and patient’s attendees during a patient’s ongoing treatment.</p>
                 <p><a href="#">View Project</a></p>
 	            </div>
@@ -273,82 +280,52 @@
 	        </div>
         </div>
       </section>
-
       <section class="ftco-section ftco-counter" id="section-counter">
         <div class="container">
-          <div class="row justify-content-center mb-5 pb-5">
+          <div class="row justify-content-center mb-5">
             <div class="col-md-7 text-center heading-section ftco-animate">
-              <span>Portfolio</span>
-              <h2>I love to share my achievements</h2>
-            </div>
-          </div>
-          <div class="row d-flex justify-content-start">
-            <div class="col-md-5 col-sm-5 counter-wrap ftco-animate">
-              <div class="block-18">
-                <div class="text">
-                  <span class="ftco-label">Happy Clients</span>
-                  <strong class="number" data-number="24">0</strong>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="row d-flex justify-content-center">
-            <div class="col-md-5 col-sm-5 counter-wrap ftco-animate">
-              <div class="block-18">
-                <div class="text">
-                  <span class="ftco-label">Projects done</span>
-                  <strong class="number" data-number="108">0</strong>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="row d-flex justify-content-end">
-            <div class="col-md-5 counter-wrap ftco-animate">
-              <div class="block-18">
-                <div class="text">
-                  <span class="ftco-label">Publications</span>
-                  <strong class="number" data-number="5">0</strong>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="row d-flex justify-content-center">
-          <div class="col-md-5 col-sm-5 counter-wrap ftco-animate">
-            <div class="block-18">
-              <div class="text">
-                <span class="ftco-label">Awards/Honors</span>
-                <strong class="number" data-number="3">0</strong>
-              </div>
+              <p style="font-size: 1.4rem;"><a target="_blank" href="portfolio.html">View More <span class="icon-arrow-right"></span></a></p>
             </div>
           </div>
         </div>
       </section>
-      
+
       <footer class="ftco-footer ftco-bg-dark ftco-section">
-        <div class="container">
-          <div class="row mb-5 justify-content-center">
-            <div class="col-md-5 text-center">
-              <div class="ftco-footer-widget mb-5">
-                <ul class="ftco-footer-social list-unstyled">
-                  <li><a href="https://www.linkedin.com/in/deepanshu-jain-01/"><span class="icon-linkedin"></span></a></li>
-				          <li><a href="https://github.com/Deeshu-Jain"><span class="icon-github"></span></a></li>
-                  <li><a href="https://www.behance.net/deepanshu_jain"><span class="icon-behance"></span></a></li>
-				          <li><a href="https://www.instagram.com/deeshu.jain/"><span class="icon-instagram"></span></a></li>
-                </ul>
+        <section id ="contact_section" class="ftco-section contact-section" style="padding-bottom: 0.3rem;">
+          <div class="container mt-5">
+            <div class="row block-9">
+              <div class="col-md-6 pr-md-5">
+                <div class="row d-flex mb-5 contact-info">
+                  <div class="col-md-12 mb-4">
+                    <h2 class="h2">Contact Information</h2>
+                  </div>
+                  <div class="w-100"></div>
+                  <div class="col-md-12">
+                    <p><span>Address :</span> Los Angeles, California</p>
+                  </div>
+                  <div class="col-md-12">
+                    <p><span>Email  : </span> <a href="mailto:djjain844@gmail.com">djjain844@gmail.com</a></p>
+                  </div>
+                  <ul class="ftco-footer-social list-unstyled" style="padding: 2rem 1rem;">
+                    <li><a href="https://www.linkedin.com/in/deepanshu-jain-01/"><span class="icon-linkedin"></span></a></li>
+                    <li><a href="https://github.com/Deeshu-Jain"><span class="icon-github"></span></a></li>
+                    <li><a href="https://www.behance.net/deepanshu_jain"><span class="icon-behance"></span></a></li>
+				            <li><a target="_blank" href="https://www.medium.com"><span class="icon-medium"></span></a></li>
+                    <li><a href="https://www.instagram.com/deeshu.jain/"><span class="icon-instagram"></span></a></li>
+                  </ul>
+                </div>
               </div>
-              <div class="ftco-footer-widget">
-                <h2 class="mb-3">Contact Me</h2>
-                <p class="h3 email"><a href="mailto:djjain844@gmail.com">djjain844@gmail.com</a></p>
+              <div class="col-md-6 mb-5">
+                  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d423284.6897532054!2d-118.41173249999999!3d34.020479!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c2c75ddc27da13%3A0xe22fdf6f254608f4!2sLos%20Angeles%2C%20CA!5e0!3m2!1sen!2sus!4v1699779478754!5m2!1sen!2sus" allowfullscreen style="width: 100%; height: 300px;" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-12 text-center">
+                <p>Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | Deepanshu Jain</p>
               </div>
             </div>
           </div>
-          <div class="row">
-            <div class="col-md-12 text-center">
-              <p>Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | Deepanshu Jain</p>
-            </div>
-          </div>
-        </div>
+        </section>
       </footer>
 
       <!-- loader -->
@@ -357,6 +334,10 @@
       </div>
 
     </div>
+
+
+
+
     
     <script src="js/jquery.min.js"></script>
     <script src="js/jquery-migrate-3.0.1.min.js"></script>
@@ -375,6 +356,6 @@
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
     <script src="js/google-map.js"></script>
     <script src="js/main.js"></script>
-    
+
   </body>
 </html>
