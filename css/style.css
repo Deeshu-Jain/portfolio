@@ -1856,8 +1856,8 @@ textarea.form-control {
   color: #2f89fc;
 }
 
-#portfolio-button-container .btn-secondary.active,
-#portfolio-button-container .btn-secondary:focus {
+#portfolio-button-container .btn-primary.active,
+#portfolio-button-container .btn-primary:focus {
   border: none !important;
   outline: none !important;
   color: #2f89fc !important;
