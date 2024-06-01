@@ -4315,13 +4315,17 @@ input[type="button"].btn-block {
   font-size: 1.25rem;
   line-height: 1;
   background-color: transparent;
-  border: 1px solid transparent;
+  border: none !important;
+  outline: none !important;
   border-radius: 0.25rem;
 }
 .navbar-toggler:hover,
 .navbar-toggler:focus {
   text-decoration: none;
+  border: none !important;
+  outline: none !important;
 }
+
 .navbar-toggler:not(:disabled):not(.disabled) {
   cursor: pointer;
 }
@@ -10090,11 +10094,11 @@ header .colorlib-navbar-brand .colorlib-logo:focus {
 }
 @media (max-width: 991.98px) {
   .owl-carousel.home-slider .slider-item .slider-text h1 {
-    font-size: 40px;
+    font-size: 30px;
   }
 }
 .owl-carousel.home-slider .slider-item .slider-text p {
-  font-size: 20px;
+  font-size: 16px;
   line-height: 1.5;
   font-weight: 300;
   color: rgba(255, 255, 255, 0.8);
