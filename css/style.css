@@ -1857,7 +1857,7 @@ textarea.form-control {
 }
 
 #portfolio-button-container .btn-secondary.active,
-#portfolio-button-container .btn-secondary:active {
+#portfolio-button-container .btn-secondary:focus {
   border: none !important;
   outline: none !important;
   color: #2f89fc !important;
