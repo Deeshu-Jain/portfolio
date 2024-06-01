@@ -36,234 +36,268 @@
   <link rel="stylesheet" href="css/animate.css">
   <link rel="stylesheet" href="css/ionicons.min.css">
   <link rel="stylesheet" href="css/icomoon.css">
-
-  <!-- Custom Stylesheet -->
   <link rel="stylesheet" href="css/style.css">
+
+  <style>
+    .ftco-section {
+      padding: 5% 0;
+    }
+
+    /* Tablet (width less than 992px) */
+    @media (max-width: 991.98px) {
+      .ftco-section {
+        padding: 20% 0;
+      }
+    }
+
+    /* Phone (width less than 768px) */
+    @media (max-width: 767.98px) {
+      .ftco-section {
+        padding: 18% 0;
+      }
+    }
+
+    @media (max-width: 426px) {
+      .ftco-section {
+        padding: 25% 0;
+      }
+    }
+
+    @media (max-width: 376px) {
+      .ftco-section {
+        padding: 47% 0;
+      }
+    }
+  </style>
 </head>
 
 <body>
-	<!-- ********************* SCROLL TO TOP BUTTON ********************* -->
-	<a href="#"><button id="scroll_top"><i class="fa-solid fa-angles-up"></i></button></a>
+  <!-- ********************* SCROLL TO TOP BUTTON ********************* -->
+  <a href="#"><button id="scroll_top"><i class="fa-solid fa-angles-up"></i></button></a>
 
 
-	<!-- ********************* NAVIGATION BAR ********************* -->
-	<header>
-		<nav class="navbar navbar-expand-lg navbar-dark">
-			<div class="container">
-				<div class="navbar-brand">
-					<a class="nav-logo" href="index.html"><span class="logo-img"
-							style="background-image: url(images/logo4.png);"></span>Deepanshu Jain</a>
-				</div>
-				<button class="navbar-toggler me-auto" type="button" data-toggle="collapse" data-target="#navbarNav"
-					aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-					<span class="navbar-toggler-icon"></span>
-				</button>
-				<div class="collapse navbar-collapse" id="navbarNav">
-					<ul class="navbar-nav ml-auto">
-						<li class="nav-item px-2">
-							<a class="nav-link js-scroll-trigger" href="#contact_section"
-								style="font-size: 20px">Contact</a>
-						</li>
-						<li class="nav-item px-2">
-							<a class="nav-link js-scroll-trigger" href="index.html" style="font-size: 20px">Back To
-								Home</a>
-						</li>
-					</ul>
-				</div>
-			</div>
-		</nav>
-	</header>
+  <!-- ********************* NAVIGATION BAR ********************* -->
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-dark">
+      <div class="container">
+        <div class="navbar-brand">
+          <a class="nav-logo" href="index.html"><span class="logo-img"
+              style="background-image: url(images/logo4.png);"></span>Deepanshu Jain</a>
+        </div>
+        <button class="navbar-toggler me-auto" type="button" data-toggle="collapse" data-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item px-2">
+              <a class="nav-link js-scroll-trigger" href="#contact_section" style="font-size: 20px">Contact</a>
+            </li>
+            <li class="nav-item px-2">
+              <a class="nav-link js-scroll-trigger" href="index.html" style="font-size: 20px">Back To
+                Home</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
 
 
-      <!-- ********************* PORTFOLIO SECTION ********************* -->
-      <section id="portfolio_section" class="ftco-section">
-        <div class="container mt-5">
-          <div class="row justify-content-center mb-5">
-            <div class="col-md-7 text-center heading-section ftco-animate">
-                <span>Publications/Blogs</span>
-                <h2>Read My Work</h2>
-            </div>
+  <!-- ********************* PORTFOLIO SECTION ********************* -->
+  <section id="portfolio_section" class="ftco-section">
+    <div class="container mt-5">
+      <div class="row justify-content-center mb-4">
+        <div class="col-md-7 text-center heading-section ftco-animate">
+          <span>Publications/Blogs</span>
+          <h2>Read My Work</h2>
+        </div>
+      </div>
+
+      <div class="row no-gutters">
+        <div class="col-lg-12 text-center">
+          <div id="portfolio-button-container">
+            <button class="btn btn-primary active" data-portfolio-section="all">Show all</button>
+            <button class="btn btn-primary" data-portfolio-section="rp">Research Papers</button>
+            <button class="btn btn-primary" data-portfolio-section="blog">Blogs</button>
           </div>
+        </div>
+      </div>
 
-          <div class="row no-gutters">
-            <div class="col-lg-12 text-center">
-              <div id="portfolio-button-container">
-                <button class="btn btn-primary active" data-portfolio-section="all">Show all</button>
-                <button class="btn btn-primary" data-portfolio-section="rp">Research Papers</button>
-                <button class="btn btn-primary" data-portfolio-section="blog">Blogs</button>
+      <br>
+
+      <div id="portfolio-items" class="row">
+
+        <div class="col-lg-3 col-md-4 col-sm-6 text-center portfolio-item blog show">
+          <a class="portfolio-link"
+            href="https://deepanshu-jain.medium.com/common-problems-encountered-in-data-analytics-and-science-d7d19d83892f">
+            <div class="portfolio-card blog_3">
+              <div class="portfolio-hover-content">
+                <h4>Common Problems Encountered in Data Analytics and Science</h4>
+                <hr>
+                <p class="explanation_portfolio">Blog<br></p>
               </div>
             </div>
-          </div>
+            <p>Oct 23, 2023</p>
+          </a>
+        </div>
 
-          <br>
-
-          <div id="portfolio-items" class="row">
-            
-            <div class="col-lg-3 col-md-4 col-sm-6 text-center portfolio-item blog show">
-              <a class="portfolio-link" href="https://deepanshu-jain.medium.com/common-problems-encountered-in-data-analytics-and-science-d7d19d83892f">
-                <div class="portfolio-card blog_3">
-                  <div class="portfolio-hover-content">
-                    <h4>Common Problems Encountered in Data Analytics and Science</h4>
-                    <hr>
-                    <p class="explanation_portfolio">Blog<br></p>
-                  </div>
-                </div>
-                <p>Oct 23, 2023</p>
-              </a>
+        <div class="col-lg-3 col-md-4 col-sm-6 text-center portfolio-item blog show">
+          <a class="portfolio-link"
+            href="https://deepanshu-jain.medium.com/a-guide-on-readme-for-your-github-5892b4a58623">
+            <div class="portfolio-card blog_2">
+              <div class="portfolio-hover-content">
+                <h4>A Guide on README for your GitHub</h4>
+                <hr>
+                <p class="explanation_portfolio">Take your GitHub profile to the next level with the help of README
+                  files<br></p>
+                <hr>
+                <p class="explanation_portfolio">Blog<br></p>
+              </div>
             </div>
-
-            <div class="col-lg-3 col-md-4 col-sm-6 text-center portfolio-item blog show">
-              <a class="portfolio-link" href="https://deepanshu-jain.medium.com/a-guide-on-readme-for-your-github-5892b4a58623">
-                <div class="portfolio-card blog_2">
-                  <div class="portfolio-hover-content">
-                    <h4>A Guide on README for your GitHub</h4>
-                    <hr>
-                    <p class="explanation_portfolio">Take your GitHub profile to the next level with the help of README files<br></p>
-                    <hr>
-                    <p class="explanation_portfolio">Blog<br></p>
-                  </div>
-                </div>
-                <p>Oct 23, 2023</p>
-              </a>
-            </div>
-
-
-            <div class="col-lg-3 col-md-4 col-sm-6 text-center portfolio-item rp show">
-              <a class="portfolio-link" href="https://link.springer.com/chapter/10.1007/978-981-99-4626-6_44?sv1=affiliate&sv_campaign_id=922583&awc=26429_1717236356_bed904dd93f5b64bae6fcd17eaccc463&utm_medium=affiliate&utm_source=awin&utm_campaign=CONR_BOOKS_ECOM_DE_PBOK_ALWYS_DEEPLINK&utm_content=textlink&utm_term=922583">
-                <div class="portfolio-card rp_1">
-                  <div class="portfolio-hover-content">
-                    <h4>Object Recognition with Voice Assistant for Visually Impaired</h4>
-                    <hr>
-                    <p class="explanation_portfolio">Conference: PCCDA 2023<br></p>
-                    <p class="explanation_portfolio">Publisher: Springer<br></p>
-                  </div>
-                </div>
-                <p>Oct 11, 2023</p>
-              </a>
-            </div>
-
-            <div class="col-lg-3 col-md-4 col-sm-6 text-center portfolio-item rp show">
-              <a class="portfolio-link" href="https://ieeexplore.ieee.org/document/9915878">
-                <div class="portfolio-card rp_2">
-                  <div class="portfolio-hover-content">
-                    <h4>Fake Reviews Filtering System Using Supervised Machine Learning</h4>
-                    <hr>
-                    <p class="explanation_portfolio">Conference: ICDSIS 2022<br></p>
-                    <p class="explanation_portfolio">Publisher: IEEE<br></p>
-                    
-                  </div>
-                </div>
-                <p>Oct 14, 2022</p>
-              </a>
-            </div>
-
-            <div class="col-lg-3 col-md-4 col-sm-6 text-center portfolio-item rp show">
-              <a class="portfolio-link" href="https://ieeexplore.ieee.org/document/9825468">
-                <div class="portfolio-card rp_3">
-                  <div class="portfolio-hover-content">
-                    <h4>Advanced Bank Security and Management System</h4>
-                    <hr>
-                    <p class="explanation_portfolio">Conference: I2CT 2022<br></p>
-                    <p class="explanation_portfolio">Publisher: IEEE<br></p>
-                    
-                  </div>
-                </div>
-                <p>July 12, 2022</p>
-              </a>
-            </div>
-
-            <div class="col-lg-3 col-md-4 col-sm-6 text-center portfolio-item rp show">
-              <a class="portfolio-link" href="https://ieeexplore.ieee.org/document/9544546">
-                <div class="portfolio-card rp_4">
-                  <div class="portfolio-hover-content">
-                    <h4>File Tracking and Security System Using BLE and Blockchain</h4>
-                    <hr>
-                    <p class="explanation_portfolio">Conference: ASIANCON 2022<br></p>
-                    <p class="explanation_portfolio">Publisher: IEEE<br></p>
-                    
-                  </div>
-                </div>
-                <p>Oct 4, 2021</p>
-              </a>
-            </div>
-            
-            <div class="col-lg-3 col-md-4 col-sm-6 text-center portfolio-item blog show">
-              <a class="portfolio-link" href="https://deepanshu-jain.medium.com/medconnect-ui-ux-case-study-e5ef55bf78c3">
-                <div class="portfolio-card proj_6">
-                  <div class="portfolio-hover-content">
-                    <h4>MedConnect : UI/UX Case Study</h4>
-                    <hr>
-                    <p class="explanation_portfolio">Reducing the communication gap between the doctor and the patient’s attendees<br></p>
-                    <hr>
-                    <p class="explanation_portfolio">Blog<br></p>
-                  </div>
-                </div>
-                <p>April 15, 2021</p>
-              </a>
-            </div>
-
+            <p>Oct 23, 2023</p>
+          </a>
         </div>
 
 
-      </section>
-
-
-      <!-- ********************* FOOTER/CONTACT INFO SECTION ********************* -->
-      <footer class="ftco-footer ftco-bg-dark ftco-section">
-        <section id="contact_section" class="ftco-section contact-section" style="padding-bottom: 0.1rem;">
-          <div class="container mt-5">
-            <div class="row block-9">
-              <div class="col-md-6 pr-md-5">
-                <div class="row d-flex mb-5 contact-info">
-                  <div class="col-md-12 mb-4">
-                    <h2 class="h2">Contact Information</h2>
-                  </div>
-                  <div class="w-100"></div>
-                  <div class="col-md-12">
-                    <p><span>Address :</span> Los Angeles, California</p>
-                  </div>
-                  <div class="col-md-12">
-                    <p><span>Email : </span> <a href="mailto:djjain844@gmail.com">djjain844@gmail.com</a></p>
-                  </div>
-                  <ul class="ftco-footer-social list-unstyled" style="padding: 1.7rem 1rem;">
-                    <li><a href="https://www.linkedin.com/in/deepanshu-jain-01/"><span class="icon-linkedin"></span></a>
-                    </li>
-                    <li><a href="https://github.com/deepanshu-jain-01"><span class="icon-github"></span></a></li>
-                    <li><a href="https://www.behance.net/deepanshu_jain"><span class="icon-behance"></span></a></li>
-                    <li><a target="_blank" href="https://medium.com/@deepanshu-jain"><span
-                          class="icon-medium"></span></a></li>
-                    <li><a href="https://www.instagram.com/deeshu.jain/"><span class="icon-instagram"></span></a></li>
-                  </ul>
-                </div>
-              </div>
-              <div class="col-md-6 mb-5">
-                <iframe
-                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d423284.6897532054!2d-118.41173249999999!3d34.020479!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c2c75ddc27da13%3A0xe22fdf6f254608f4!2sLos%20Angeles%2C%20CA!5e0!3m2!1sen!2sus!4v1699779478754!5m2!1sen!2sus"
-                  allowfullscreen style="width: 100%; height: 250px;" loading="lazy"
-                  referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <div class="col-lg-3 col-md-4 col-sm-6 text-center portfolio-item rp show">
+          <a class="portfolio-link"
+            href="https://link.springer.com/chapter/10.1007/978-981-99-4626-6_44?sv1=affiliate&sv_campaign_id=922583&awc=26429_1717236356_bed904dd93f5b64bae6fcd17eaccc463&utm_medium=affiliate&utm_source=awin&utm_campaign=CONR_BOOKS_ECOM_DE_PBOK_ALWYS_DEEPLINK&utm_content=textlink&utm_term=922583">
+            <div class="portfolio-card rp_1">
+              <div class="portfolio-hover-content">
+                <h4>Object Recognition with Voice Assistant for Visually Impaired</h4>
+                <hr>
+                <p class="explanation_portfolio">Conference: PCCDA 2023<br></p>
+                <p class="explanation_portfolio">Publisher: Springer<br></p>
               </div>
             </div>
-            <div class="row">
-              <div class="col-md-12 text-center">
-                <p>Copyright &copy;<script>
-                    document.write(new Date().getFullYear());
-                  </script> All rights reserved | Deepanshu Jain</p>
+            <p>Oct 11, 2023</p>
+          </a>
+        </div>
+
+        <div class="col-lg-3 col-md-4 col-sm-6 text-center portfolio-item rp show">
+          <a class="portfolio-link" href="https://ieeexplore.ieee.org/document/9915878">
+            <div class="portfolio-card rp_2">
+              <div class="portfolio-hover-content">
+                <h4>Fake Reviews Filtering System Using Supervised Machine Learning</h4>
+                <hr>
+                <p class="explanation_portfolio">Conference: ICDSIS 2022<br></p>
+                <p class="explanation_portfolio">Publisher: IEEE<br></p>
+
               </div>
             </div>
-          </div>
-        </section>
-      </footer>
+            <p>Oct 14, 2022</p>
+          </a>
+        </div>
 
-      <!-- ********************* INITIATE WEBSITE LOADER ********************* -->
-      <div id="ftco-loader" class="show fullscreen">
-        <svg class="circular" width="48px" height="48px">
-          <circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#FFFFFF" />
-          <circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10"
-            stroke="#FFFFFF" />
-        </svg>
+        <div class="col-lg-3 col-md-4 col-sm-6 text-center portfolio-item rp show">
+          <a class="portfolio-link" href="https://ieeexplore.ieee.org/document/9825468">
+            <div class="portfolio-card rp_3">
+              <div class="portfolio-hover-content">
+                <h4>Advanced Bank Security and Management System</h4>
+                <hr>
+                <p class="explanation_portfolio">Conference: I2CT 2022<br></p>
+                <p class="explanation_portfolio">Publisher: IEEE<br></p>
+
+              </div>
+            </div>
+            <p>July 12, 2022</p>
+          </a>
+        </div>
+
+        <div class="col-lg-3 col-md-4 col-sm-6 text-center portfolio-item rp show">
+          <a class="portfolio-link" href="https://ieeexplore.ieee.org/document/9544546">
+            <div class="portfolio-card rp_4">
+              <div class="portfolio-hover-content">
+                <h4>File Tracking and Security System Using BLE and Blockchain</h4>
+                <hr>
+                <p class="explanation_portfolio">Conference: ASIANCON 2022<br></p>
+                <p class="explanation_portfolio">Publisher: IEEE<br></p>
+
+              </div>
+            </div>
+            <p>Oct 4, 2021</p>
+          </a>
+        </div>
+
+        <div class="col-lg-3 col-md-4 col-sm-6 text-center portfolio-item blog show">
+          <a class="portfolio-link" href="https://deepanshu-jain.medium.com/medconnect-ui-ux-case-study-e5ef55bf78c3">
+            <div class="portfolio-card proj_6">
+              <div class="portfolio-hover-content">
+                <h4>MedConnect : UI/UX Case Study</h4>
+                <hr>
+                <p class="explanation_portfolio">Reducing the communication gap between the doctor and the patient’s
+                  attendees<br></p>
+                <hr>
+                <p class="explanation_portfolio">Blog<br></p>
+              </div>
+            </div>
+            <p>April 15, 2021</p>
+          </a>
+        </div>
+
       </div>
 
-    </div>
+
+  </section>
+
+
+  <!-- ********************* FOOTER/CONTACT INFO SECTION ********************* -->
+  <footer class="ftco-footer ftco-bg-dark ftco-section">
+    <section id="contact_section" class="contact-section" style="padding-bottom: 0.1rem;">
+      <div class="container mt-5">
+        <div class="row block-9">
+          <div class="col-md-6 pr-md-5">
+            <div class="row d-flex mb-5 contact-info">
+              <div class="col-md-12 mb-4">
+                <h2 class="h2">Contact Information</h2>
+              </div>
+              <div class="w-100"></div>
+              <div class="col-md-12">
+                <p><span>Address :</span> Los Angeles, California</p>
+              </div>
+              <div class="col-md-12">
+                <p><span>Email : </span> <a href="mailto:djjain844@gmail.com">djjain844@gmail.com</a></p>
+              </div>
+              <ul class="ftco-footer-social list-unstyled" style="padding: 1.7rem 1rem;">
+                <li><a href="https://www.linkedin.com/in/deepanshu-jain-01/"><span class="icon-linkedin"></span></a>
+                </li>
+                <li><a href="https://github.com/deepanshu-jain-01"><span class="icon-github"></span></a></li>
+                <li><a href="https://www.behance.net/deepanshu_jain"><span class="icon-behance"></span></a></li>
+                <li><a target="_blank" href="https://medium.com/@deepanshu-jain"><span class="icon-medium"></span></a>
+                </li>
+                <li><a href="https://www.instagram.com/deeshu.jain/"><span class="icon-instagram"></span></a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-md-6 mb-5">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d423284.6897532054!2d-118.41173249999999!3d34.020479!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c2c75ddc27da13%3A0xe22fdf6f254608f4!2sLos%20Angeles%2C%20CA!5e0!3m2!1sen!2sus!4v1699779478754!5m2!1sen!2sus"
+              allowfullscreen style="width: 100%; height: 250px;" loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-12 text-center">
+            <p>Copyright &copy;<script>
+                document.write(new Date().getFullYear());
+              </script> All rights reserved | Deepanshu Jain</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </footer>
+
+  <!-- ********************* INITIATE WEBSITE LOADER ********************* -->
+  <div id="ftco-loader" class="show fullscreen">
+    <svg class="circular" width="48px" height="48px">
+      <circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#FFFFFF" />
+      <circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10"
+        stroke="#FFFFFF" />
+    </svg>
+  </div>
+
+  </div>
 
   </div>
 
@@ -283,16 +317,16 @@
     document.addEventListener('DOMContentLoaded', function () {
       const buttons = document.querySelectorAll('#portfolio-button-container .btn');
       const portfolioItems = document.querySelectorAll('.portfolio-item');
-  
+
       // Store initial state
       const initialShowItems = Array.from(portfolioItems).filter(item => item.classList.contains('show'));
-  
+
       buttons.forEach(button => {
         button.addEventListener('click', () => {
           const category = button.getAttribute('data-portfolio-section');
           buttons.forEach(btn => btn.classList.remove('active'));
           button.classList.add('active');
-  
+
           if (category === 'all') {
             portfolioItems.forEach(item => {
               item.classList.remove('show');
@@ -313,8 +347,8 @@
       });
     });
   </script>
-  
-  
+
+
 
 
   <!-- jQuery -->
@@ -351,4 +385,5 @@
   <!-- Custom Javascript -->
   <script src="js/main.js"></script>
 </body>
+
 </html>

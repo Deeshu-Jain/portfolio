@@ -55,7 +55,16 @@ body.menu-show {
   width: 100%;
 }
 
-h1, h2, h3, h4, h5, .h1, .h2, .h3, .h4, .h5 {
+h1,
+h2,
+h3,
+h4,
+h5,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5 {
   line-height: 1.5;
   color: #fff;
   font-weight: 400;
@@ -94,7 +103,6 @@ a {
   }
 }
 
-
 /* ********************* KW CONTAINER ********************* */
 /* body .KW_progressContainer {
   left: 0;
@@ -123,7 +131,6 @@ body .KW_progressBar {
   transition: width 0.6s ease;
 } */
 
-
 /* ********************* NAVIGATION BAR ********************* */
 header {
   padding: 2em 0;
@@ -145,7 +152,7 @@ header {
 header .navbar-brand .nav-logo {
   font-size: 20px;
   text-transform: uppercase;
-  color: #FFF;
+  color: #fff;
   font-weight: 400;
   letter-spacing: 5px;
   padding: 7px;
@@ -175,7 +182,7 @@ header .navbar-brand .nav-logo:focus {
 }
 
 .navbar-dark .navbar-nav .nav-link {
-  color: #FFF;
+  color: #fff;
 }
 
 .nav-item li {
@@ -220,11 +227,11 @@ header .navbar-brand .nav-logo:focus {
   }
 }
 
-.navbar-toggler:focus, .navbar-toggler:active {
+.navbar-toggler:focus,
+.navbar-toggler:active {
   border: none !important;
   outline: none !important;
 }
-
 
 /* ********************* HERO-CAROUSEL ********************* */
 .owl-carousel {
@@ -478,7 +485,6 @@ header .navbar-brand .nav-logo:focus {
   background: white;
 }
 
-
 /* ********************* ABOUT SECTION ********************* */
 .about-section h2 {
   font-weight: 300;
@@ -641,7 +647,6 @@ header .navbar-brand .nav-logo:focus {
   background: #2f89fc;
 }
 
-
 /* ********************* SERVICES SECTION ********************* */
 .services {
   position: relative;
@@ -798,32 +803,26 @@ textarea.form-control {
 }
 
 .ftco-section {
-  padding: 5% 0;
+  padding: 4% 0;
 }
 
 /* Tablet (width less than 992px) */
 @media (max-width: 991.98px) {
   .ftco-section {
-    padding: 20% 0;
+    padding: 18% 0;
   }
 }
 
 /* Phone (width less than 768px) */
 @media (max-width: 767.98px) {
   .ftco-section {
+    padding: 16% 0;
+  }
+}
+
+@media (max-width: 525.98px) {
+  .ftco-section {
     padding: 18% 0;
-  }
-}
-
-@media (max-width: 426px) {
-  .ftco-section {
-    padding: 25% 0;
-  }
-}
-
-@media (max-width: 376px) {
-  .ftco-section {
-    padding: 47% 0;
   }
 }
 
@@ -1856,11 +1855,15 @@ textarea.form-control {
   color: #2f89fc;
 }
 
-#portfolio-button-container .btn-primary.active,
+#portfolio-button-container .btn.active {
+  color: #2f89fc;
+}
+
+#portfolio-button-container .btn-primary:active,
 #portfolio-button-container .btn-primary:focus {
   border: none !important;
   outline: none !important;
-  color: #2f89fc !important;
+  box-shadow: none !important;
 }
 
 .portfolio-item {
@@ -1869,7 +1872,7 @@ textarea.form-control {
 }
 
 .portfolio-item.show {
-  display: inline;
+  display: flex;
   justify-content: center !important;
 }
 
